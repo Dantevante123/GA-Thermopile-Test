@@ -85,7 +85,6 @@ if __name__ == '__main__':
         Npnt = 100 
         # adding noise to input data to simulate artificial measurements
         msmnt_err = 0.5 
-        
         x,y = make_noisy_test_data(p_true,Npnt,msmnt_err)
         
     p_fit,Chi_sq,sigma_p,sigma_y,corr,R_sq,cvg_hst = main(x,y,p_init)
