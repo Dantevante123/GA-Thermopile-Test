@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+# Generated figures
+*.png
+*.jpg
+*_out/
+
+# Generated result files
+*.csv
+
+# Python cache
+__pycache__/
